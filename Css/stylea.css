@@ -1,0 +1,54 @@
+.content {
+    padding: 20px;
+    margin-top: 60px; /* Adjust based on your navbar height */
+   
+      
+  }
+
+.content p{
+    text-align: center;
+    font-size: 50px;
+}
+
+/* CSS for contact details */
+
+.contact-box {
+    background-color: #f0f0f0;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 600px;
+    width: 500px;
+    border: 1px solid #020444;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the contact box horizontally */
+  }
+  
+  
+  .contact-box h3 {
+    
+    font-size: 30px;
+  }
+  
+  .contact-box p {
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: justify;
+  }
+  .map {
+    margin: 20px;
+    border: 2px solid #020444; /* Set border color and width */
+    border-radius: 5px; /* Add border radius for rounded corners */
+   
+  }
+  
+  .map iframe {
+    width: 100%; /* Set the width of the map to 100% */
+    height: 300px; /* Set the height of the map */
+    border: none; /* Remove the border of the iframe */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
