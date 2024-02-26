@@ -1,28 +1,148 @@
-.board-section {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    gap: 20px;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-  .board-part {
-    flex: 0 0 33.33%; /* Each part takes up 1/3 of the container */
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .board-section {
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  
-    .board-part {
-      flex: 0 0 100%; /* Each part takes up full width on smaller screens */
-      margin-bottom: 20px;
-    }
-  }
-  
+.content h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.exco {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to next line */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Adjust the gap between boxes as needed */
+}
+
+table {
+  border-spacing: 0;
+  margin: 0 auto;
+  width: 100%; /* Ensure table takes full width */
+  max-width: 800px; /* Limit the table width */
+  background-color: antiquewhite;
+}
+
+td {
+  width: 200px; /* Set the width of each box */
+  text-align: center;
+  padding: 10px;
+}
+
+.centered-row {
+  text-align: center;
+}
+
+.exco img {
+  width: 100%; /* Ensure images fill the cell */
+  height: auto; /* Maintain aspect ratio */
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.exco1 {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to next line */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Adjust the gap between boxes as needed */
+}
+
+.exco1 table {
+  border-spacing: 0;
+  margin: 0 auto;
+  width: 20%; /* Ensure table takes full width */
+  max-width: 800px; /* Limit the table width */
+  background-color: antiquewhite;
+}
+
+.exco1 td {
+  width: 200px; /* Set the width of each box */
+  text-align: center;
+  padding: 10px;
+}
+
+.centered-row {
+  text-align: center;
+}
+
+.exco1 img {
+  width: 100%; /* Ensure images fill the cell */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.exco1 p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.exco2 {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to next line */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Adjust the gap between boxes as needed */
+}
+
+.exco2 table {
+  border-spacing: 0;
+  margin: 0 auto;
+  width: 100%; /* Ensure table takes full width */
+  max-width: 1000px; /* Limit the table width */
+  background-color: antiquewhite;
+}
+
+.exco2 td {
+  width: 200px; /* Set the width of each box */
+  text-align: center;
+  padding: 10px;
+}
+
+.centered-row {
+  text-align: center;
+}
+
+.exco2 img {
+  width: 100%; /* Ensure images fill the cell */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.exco2 p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.exco3 {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to next line */
+  justify-content: center; /* Center items horizontally */
+  gap: 20px; /* Adjust the gap between boxes as needed */
+}
+
+.exco3 table {
+  border-spacing: 0;
+  margin: 0 auto;
+  width: 100%; /* Ensure table takes full width */
+  max-width: 500px; /* Limit the table width */
+  background-color: antiquewhite;
+}
+
+.exco3 td {
+  width: 200px; /* Set the width of each box */
+  text-align: center;
+  padding: 10px;
+}
+
+.centered-row {
+  text-align: center;
+}
+
+.exco3 img {
+  width: 100%; /* Ensure images fill the cell */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.exco3 p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}

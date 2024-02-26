@@ -1,0 +1,30 @@
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center; /* Center the grid horizontally */
+    padding: 100px;
+    padding-left: 140px;
+    padding-right: 100px;
+}
+
+.content table {
+    border-collapse: collapse;
+    width: 80%; /* Set the table width to 80% of the container */
+    margin: 0 auto; /* Center the table horizontally */
+   
+}
+
+.content table td {
+    border: 1px solid #ddd;
+    padding: 20px; /* Increase padding for larger cells */
+    text-align: center;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
