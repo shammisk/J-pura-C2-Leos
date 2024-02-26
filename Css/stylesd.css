@@ -24,9 +24,6 @@ td {
   padding: 10px;
 }
 
-.centered-row {
-  text-align: center;
-}
 
 .exco img {
   width: 100%; /* Ensure images fill the cell */
@@ -60,9 +57,7 @@ p {
   padding: 10px;
 }
 
-.centered-row {
-  text-align: center;
-}
+
 
 .exco1 img {
   width: 100%; /* Ensure images fill the cell */
@@ -96,9 +91,7 @@ p {
   padding: 10px;
 }
 
-.centered-row {
-  text-align: center;
-}
+
 
 .exco2 img {
   width: 100%; /* Ensure images fill the cell */
@@ -132,9 +125,6 @@ p {
   padding: 10px;
 }
 
-.centered-row {
-  text-align: center;
-}
 
 .exco3 img {
   width: 100%; /* Ensure images fill the cell */
