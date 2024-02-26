@@ -46,8 +46,8 @@ p {
 .exco1 table {
   border-spacing: 0;
   margin: 0 auto;
-  width: 20%; /* Ensure table takes full width */
-  max-width: 800px; /* Limit the table width */
+  width: 100%; /* Ensure table takes full width */
+  max-width: 300px; /* Limit the table width */
   background-color: antiquewhite;
 }
 
