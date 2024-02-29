@@ -105,8 +105,12 @@
   .column1 {
     flex: 1;
     padding: 0 20px;
+    
    
   }
+
+  
+  
   
   .column1 img {
     max-width: 50%;
@@ -167,3 +171,22 @@
     background-color: #0056b3;
   }
   
+  .leoism4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    text-align: left;
+  }
+
+  
+  
+  .column4 {
+    flex: 1;
+    padding: 0 50px;
+  }
+  
+  .column4 img {
+    max-width: 70%;
+    margin-left: 40px;
+  }
