@@ -1,43 +1,52 @@
 .content {
-    padding: 20px;
-    margin-top: 60px; /* Adjust based on your navbar height */
-   
-      
-  }
-
-.content p{
-    text-align: center;
-    font-size: 50px;
+  max-width: 800px; /* Set maximum width for the content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px; /* Add padding around the content */
+  text-align: center; /* Center align the text */
 }
 
-/* CSS for contact details */
-
 .contact-box {
-    background-color: #f0f0f0;
-    
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
-    height: 300px;
-    border: 1px solid #020444;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto; /* Center the contact box horizontally */
+   /* Set background color for the contact box */
+  padding: 20px; /* Add padding inside the contact box */
+  border-radius: 5px; /* Add border radius to round the corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  margin-top: 100px;
+  background: rgb(23,23,175);
+  background: linear-gradient(141deg, rgba(23,23,175,1) 11%, rgba(183,164,13,1) 48%, rgba(20,41,189,1) 83%);
+  color: beige;
+}
+
+.contact-box h3 {
+  margin-top: 0; /* Remove top margin for the heading */
+  color: beige;
+}
+
+.social-links {
+  margin-top: 20px; /* Add space between contact details and social links */
+}
+
+.social-link {
+  margin-right: 10px; /* Add space between social links */
+  color: #333; /* Set color for social link icons */
+  font-size: 1.5em; /* Set font size for social link icons */
+  color: beige;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .content {
+    padding: 10px; /* Reduce padding for smaller screens */
   }
-  
-  
-  .contact-box h3 {
-    text-align: center;
-    font-size: 30px;
+
+  .contact-box {
+    padding: 15px; /* Reduce padding inside the contact box */
   }
-  
-  .contact-box p {
-    margin: 5px 0;
-    font-size: 20px;
-    text-align: justify;
+
+  .social-link {
+    font-size: 1.2em; /* Reduce font size for social link icons on smaller screens */
   }
+}
+
   .map {
     margin: 20px;
     border: 2px solid #020444; /* Set border color and width */
