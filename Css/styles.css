@@ -6,12 +6,24 @@ body {
   padding: 0;
 }
 
+.navbar ul{
+  float: right;
+  margin-right: 100px;
+}
+.navbar ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+
 .navbar {
   overflow: hidden;
   background-color: #020444;
   position: fixed;
   top: 0;
   width: 100%;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,7 +91,7 @@ body {
     font-size: 24px;
     cursor: pointer;
     padding: 20px;
-    margin-right: 40px;
+    margin-right: 70px;
   }
 
   .menu-icon:hover {
@@ -113,7 +125,6 @@ body {
   }
 }
 
-
 .content {
   padding: 20px;
   margin-top: 60px; /* Adjust based on your navbar height */
@@ -122,8 +133,8 @@ body {
 .footer {
   background-color: #020444;
   color: white;
- 
   text-align: center;
+  padding: 20px 0; /* Add padding top and bottom */
 }
 
 .social-links {
@@ -138,18 +149,12 @@ body {
 .footer a {
   color: white;
   text-decoration: none;
-  padding-top: 30px;
- 
 }
 
 .footer a:hover {
   text-decoration: underline;
 }
 
-.copyright{
-  padding-bottom: 30px;
+.footer .copyright {
+  padding: 10px 0; /* Add padding top and bottom */
 }
-
-
-
-
