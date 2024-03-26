@@ -1,7 +1,4 @@
-function toggleMenu() {
-    var navLinks = document.getElementById("navLinks");
-    navLinks.classList.toggle("active");
-  }
+
   
 
   var slideIndex = 0;

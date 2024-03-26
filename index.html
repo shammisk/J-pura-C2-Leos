@@ -21,15 +21,19 @@
           <p>University of Sri Jayewardenepura</p>
         </div>
       </div>
-      <i class="fas fa-bars menu-icon" id="menuIcon" onclick="toggleMenu()"></i>
-      <div class="nav-links" id="navLinks">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="board.html">Board Members</a>
-        <a href="project.html">Projects</a>
-        <a href="contact.html">Contact</a>
-      </div>
+    
+     
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="board.html">Board Members</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      
+      <div id="menu-btn" class="fas fa-bars menu-icon" onclick="toggleMenu()"></div>
     </div>
+    
     <div class="content">
       <div class="slideshow-container">
         <div class="mySlides fade">
@@ -184,18 +188,6 @@
     </footer>
 
     <script src="javascript/script.js" defer></script>
-    <script>
-    // JavaScript to toggle the navigation list
-function toggleMenu() {
-  var navList = document.getElementById("navList");
-  if (navList.style.display === "block") {
-    navList.style.display = "none";
-  } else {
-    navList.style.display = "block";
-  }
-}
-
-
-      </script>
+   <script src="javascript/script2.js" defer></script>
   </body>
 </html>
